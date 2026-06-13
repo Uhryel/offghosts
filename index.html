@@ -1,13 +1,100 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
 <head>
-    <title>OFFGHOSTS</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OFFGHOSTS</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#050505;
+    color:white;
+    font-family:Arial, sans-serif;
+}
+
+.hero{
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:30px;
+}
+
+.logo{
+    font-size:4rem;
+    font-weight:bold;
+    letter-spacing:10px;
+}
+
+.subtitle{
+    margin-top:20px;
+    max-width:700px;
+    opacity:.8;
+    line-height:1.6;
+}
+
+.menu{
+    display:flex;
+    gap:15px;
+    margin-top:40px;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+.menu a{
+    color:white;
+    text-decoration:none;
+    border:1px solid #333;
+    padding:15px 25px;
+    border-radius:12px;
+    transition:.3s;
+}
+
+.menu a:hover{
+    border-color:white;
+    transform:translateY(-3px);
+}
+
+.footer{
+    margin-top:50px;
+    opacity:.5;
+    font-size:.9rem;
+}
+</style>
+
 </head>
 <body>
 
-<h1>OFFGHOSTS</h1>
+<section class="hero">
 
-<p>Plataforma independente para música, conhecimento e experimentação criativa.</p>
+    <div class="logo">
+        OFFGHOSTS
+    </div>
+
+    <p class="subtitle">
+        Plataforma independente para música, conhecimento e experimentação criativa.
+    </p>
+
+    <div class="menu">
+        <a href="#">BEATS</a>
+        <a href="#">CURSOS</a>
+        <a href="#">PDFs</a>
+        <a href="#">AWÁVVE</a>
+    </div>
+
+    <div class="footer">
+        © OFFGHOSTS
+    </div>
+
+</section>
 
 </body>
 </html>
